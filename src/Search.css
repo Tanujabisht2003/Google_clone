@@ -9,6 +9,9 @@
     margin: 0 auto;
     margin-top: 40px;
     max-width: 560px;
+    /* margin: 0;
+    margin-top: 0px;
+    max-width: 700px; */
 }
 .search__input > input{
     flex:1;
@@ -44,27 +47,4 @@
 }
 .search__buttonsHidden{
     display: none !important;
-}
-.searchPage__options{
-    display: flex;
-    align-items: center;
-    color: grey;
-}
-.searchPage__options a, .searchPage__optionsRight a{
-    text-decoration: none;
-    color: gray;
-}
-.searchPage__optionsRight, .searchPage__optionsLeft {
-    display: flex;
-}
-.searchPage__optionsRight {
-    margin-left: 80px;
-}
-.searchPage__option {
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-}
-.searchPage__option a{
-    margin-left: 5px;
 }
